@@ -6,6 +6,20 @@ created_at: "2024-05-22"
 ---
 
 
+## June 10th, 11th
+Worked on the schematics for system today. I'm expecting Rev. 3 to be the final version of the schematic.
+
+Thanks to the new STM32 microcontroller and ADC, the power circuity has been dumbed down even more! Since the 5V-ish Vbus only needs to go *down* to 3.3V, only the LT3045 will be needed to do all the power filtering!
+
+![Schematic](/assets/Rev3Power.png)
+
+Explaination soon:
+
+![Schematic](/assets/Rev3Schematic.png)
+
+**Time spent: 14hrs**
+
+
 ## June 7th, 8th, 9th
 Work over the long weekend! Lots of research (AMA) and thinking... thinking... thinking... In conclusion - time for a 3rd revision!
 
