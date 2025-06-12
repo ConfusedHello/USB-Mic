@@ -6,6 +6,25 @@ created_at: "2024-05-22"
 ---
 
 
+## June 12th
+Summary of changes for Rev. 4:
+
+- Add preamp (assumed TAA had PGA like it's I2C version - it doesn't)
+- Add USB data and power isolation
+- Add DC/DC converter + LDOs for preamp
+- Fix floating STM32 pins
+- Add ST-Link debug pins in case USB doesn't work
+
+
+Hours and hours of research and reading datasheets behind this move. Also did begin working on some PCB design ideas as well as set up the STM32 CUBE IDE environment. Finishing off today's log with some screenshots.
+
+![Schematic](/assets/Rev4Initial.png)
+![MCU Pinout](/assets/STMIOC.png)
+
+
+**Time spent: 9hrs**
+
+
 ## June 10th, 11th
 Worked on the schematics for system today. I'm expecting Rev. 3 to be the final version of the schematic.
 
