@@ -6,6 +6,15 @@ created_at: "2024-05-22"
 ---
 
 
+## June 13th
+Crazyy amount of work researching and on Rev. 4 - will finish off tomorrow. Also, the progression from Rev. 1 to 4 will be quite interesting to look back at...
+
+![Schematic](/assets/Rev4Initial2.png)
+
+
+**Time spent: 10hrs**
+
+
 ## June 12th
 Summary of changes for Rev. 4:
 
