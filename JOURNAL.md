@@ -5,6 +5,10 @@ description: "A DIY USB Microphone!"
 created_at: "2024-05-22"
 ---
 
+## June 17th
+ 
+Have been sick. Updates returning soon!
+
 
 ## June 13th
 Crazyy amount of work researching and on Rev. 4 - will finish off tomorrow. Also, the progression from Rev. 1 to 4 will be quite interesting to look back at...
