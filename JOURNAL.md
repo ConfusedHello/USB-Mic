@@ -5,9 +5,21 @@ description: "A DIY USB Microphone!"
 created_at: "2024-05-22"
 ---
 
+
+## June 18th
+Turns out making sure everything will *actually* work is difficult. Very difficult. Turns out the math behind making sure things don't explode isn't easy. In summary, over the last few days I've been revising each and every component of the microphone to make sure it's functional and well as non-explosive.
+
+Have now moved onto consolidating values for the preamp stage. I've also done some SPICE simulations!
+![SPICE](/assets/SPICE.png)
+
+Busy week unfortunately - will try to work on as much as I can.
+
+**Time spent: 8hrs**
+
+
+
 ## June 17th
- 
-Have been sick. Updates returning soon!
+Have been sick. Updates returning soon! Note to self: 14.1mV/Pa cap
 
 
 ## June 13th
