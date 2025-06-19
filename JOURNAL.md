@@ -10,7 +10,7 @@ created_at: "2024-05-22"
 Turns out making sure everything will *actually* work is difficult. Very difficult. Turns out the math behind making sure things don't explode isn't easy. In summary, over the last few days I've been revising each and every component of the microphone to make sure it's functional and well as non-explosive.
 
 Have now moved onto consolidating values for the preamp stage. I've also done some SPICE simulations!
-![SPICE](/assets/SPICE.png)
+![SPICE](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/SPICE.png)
 
 Busy week unfortunately - will try to work on as much as I can.
 
@@ -25,7 +25,7 @@ Have been sick. Updates returning soon! Note to self: 14.1mV/Pa cap
 ## June 13th
 Crazyy amount of work researching and on Rev. 4 - will finish off tomorrow. Also, the progression from Rev. 1 to 4 will be quite interesting to look back at...
 
-![Schematic](/assets/Rev4Initial2.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev4Initial2.png)
 
 
 **Time spent: 10hrs**
@@ -43,8 +43,8 @@ Summary of changes for Rev. 4:
 
 Hours and hours of research and reading datasheets behind this move. Also did begin working on some PCB design ideas as well as set up the STM32 CUBE IDE environment. Finishing off today's log with some screenshots.
 
-![Schematic](/assets/Rev4Initial.png)
-![MCU Pinout](/assets/STMIOC.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev4Initial.png)
+![MCU Pinout](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/STMIOC.png)
 
 
 **Time spent: 9hrs**
@@ -55,11 +55,11 @@ Worked on the schematics for system today. I'm expecting Rev. 3 to be the final 
 
 Thanks to the new STM32 microcontroller and ADC, the power circuity has been dumbed down even more! Since the 5V-ish Vbus only needs to go *down* to 3.3V, only the LT3045 will be needed to do all the power filtering!
 
-![Schematic](/assets/Rev3Power.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev3Power.png)
 
 Explaination soon:
 
-![Schematic](/assets/Rev3Schematic.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev3Schematic.png)
 
 **Time spent: 14hrs**
 
@@ -87,10 +87,10 @@ As such, we'll be going the STM32 route! There's middleware for USB Audio as wel
 Reviewed the schematics over the last two days. A few changes have been made so, I figure this is officially Rev. 2
 
 Firstly, the preamp+capsule didn't actually make any sense (TI what are you doing) so I've transitioned to a more traditional preamp. I've also added in variable pickup using a two switches connected to the front and back diaphrams.
-![Schematic](/assets/Rev2Amp.png) 
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev2Amp.png) 
 
 Secondly, I caught *more than a few* miscalculations in the resistor values for some of the power components and fixed them. I've also moved from using two LT4035's to only 1 as after calculating the total power draw, one will be sufficient.
-![Schematic](/assets/Rev2Power.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev2Power.png)
 
 The bigger change, however, is a with the ADC. I've decided to completely remove the PCM2900. Its just not good enough, and it would be a shame to pair it with the analog front-end. The new plan is to use a dedicated ADC, then over I2S or some other protocol with a STM32 or similar, bridge it to USB. Which means the project just got a lot more complicated-
 
@@ -99,26 +99,26 @@ The bigger change, however, is a with the ADC. I've decided to completely remove
 
 ## June 1st
 Some more work on the mic today! Attempted implementing the PCM2900 to take the line-level signal and output USB. I've also printed (yes printed) the datasheets for all my power components so I can go through and check for errors sometime next week.
-![Schematic](/assets/Rev1PCM.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev1PCM.png)
 
 **Time spent: 1hr**
 
 
 ## May 28th, 29th, 30th
 A bit of work on the schematics over the last few days - been caught up with Hackpad as well as my DLSR Gimbal though. First up was the capsule and preamp - I primarily looked at some example implementations in TI datasheets. Here it is!
-![Schematic](/assets/Rev1Amp.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev1Amp.png)
 
 Still not too sure how much of it works... I'll keep it the same as the TI implementation for now until I know how any of it works. 
 
 Next up was the power circuitry - it's a bit of a headache but I'll try to explain the basics of each stage.
 
-![Schematic](/assets/Rev1VBUS.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev1VBUS.png)
 First up here are the components to filter the noisy (and not actually 5V) Vbus from the usb host (laptop). The basic outline for this stage is to take the 4.45V-5.25V, boost it up to slightly over 5V, and the drop it to a nice and clean 5V with a LDO.
 
-![Schematic](/assets/Rev1Amp.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev1Amp.png)
 VERY SIMILAR TO THE ONE ABOVE. Takes the clean 5V in, and spits out ±15V (just think of it as 30V but GND is now in the middle) which does through a LDO that supports a pos and neg voltage.
 
-![Schematic](/assets/Rev1BIAS.png)
+![Schematic](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/Rev1BIAS.png)
 This one's actually from a old THAT Corp. blog post, saves some trouble looking for components (saving a little cost) while also providing me with a schematic I know works! 
 
 Overall, progress going pretty well~
@@ -165,7 +165,7 @@ Most of the day was spent reading application notes from TI, Analog Devices, and
 
 ## May 22nd - In the Beginning, There Was Nothing
 Beginning work on the project today! The main inspiration is the DIY Perks USB Mic, but I want to go a step further and build one for myself while understanding the theory behind a mic. First decision - the capsule. I've settled on a RK-12 style knockoff off AliExpress that looks promising.
-![RK-12 Capsule](/assets/RK_12.webp)
+![RK-12 Capsule](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/RK_12.webp)
 
 It's dual diaphram (as far as I can tell) with a single blackplate in the middle. This does mean however I will be building proper a high-voltage bias supply and proper preamp.
 
