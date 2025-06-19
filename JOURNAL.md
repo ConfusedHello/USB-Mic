@@ -6,6 +6,26 @@ created_at: "2024-05-22"
 ---
 
 
+## June 19th
+More simulation and math. Mostly images today!!
+![SPICE](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/SPICEAC.png)
+AC Analysis of the JFET output stage
+
+With these results I made:
+![DESMOS](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/GAINDESMOS.png)
+Fig 1. dB to mV<sub>PP</sub> @Gain=1<sub>v/v</sub>
+
+![Desmos](/assets/GAINDESMOS2.png)
+Fig 2. dB to mV<sub>PP</sub> @Gain=2<sub>v/v</sub>
+
+The purple line is the recommended max input voltage on the ADC input pins, the black line is the maximum voltage allowed, and the green is the clipping voltage of the op-amp when powered from the 4.5V supply. Honestly, I think going with no gain might actually be okay considering the +20dB amp + the -13/+36dB PGA.
+
+Will look into choosing another N-JFET considering mine is $10... the J305 is looking pretty interesting though!
+
+
+**Time spent: 10hrs**
+
+
 ## June 18th
 Turns out making sure everything will *actually* work is difficult. Very difficult. Turns out the math behind making sure things don't explode isn't easy. In summary, over the last few days I've been revising each and every component of the microphone to make sure it's functional and well as non-explosive.
 
