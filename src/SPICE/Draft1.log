@@ -1,0 +1,15 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\brand\Documents\GitHub\USB-Mic\src\SPICE\Draft1.net
+Start Time: Fri Jun 20 09:34:29 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.192 seconds.
+
+Files loaded:
+C:\Users\brand\Documents\GitHub\USB-Mic\src\SPICE\Draft1.net
+C:\Users\brand\AppData\Local\LTspice\lib\sub\MAX4353.lib
+
