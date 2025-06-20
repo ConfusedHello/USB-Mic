@@ -6,6 +6,12 @@ created_at: "2024-05-22"
 ---
 
 
+## June 20th
+Significant progress today! However, the project will be put on hold until next Tuesday due to school tests and SAT deadlines. Progress will be journaled next week!
+
+**Time spent: 6hrs**
+
+
 ## June 19th
 More simulation and math. Mostly images today!!
 ![SPICE](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/SPICEAC.png)
@@ -15,7 +21,7 @@ With these results I made:
 ![DESMOS](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/GAINDESMOS.png)
 Fig 1. dB to mV<sub>PP</sub> @Gain=1<sub>v/v</sub>
 
-![Desmos](/assets/GAINDESMOS2.png)
+![Desmos](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/GAINDESMOS2.png)
 Fig 2. dB to mV<sub>PP</sub> @Gain=2<sub>v/v</sub>
 
 The purple line is the recommended max input voltage on the ADC input pins, the black line is the maximum voltage allowed, and the green is the clipping voltage of the op-amp when powered from the 4.5V supply. Honestly, I think going with no gain might actually be okay considering the +20dB amp + the -13/+36dB PGA.
