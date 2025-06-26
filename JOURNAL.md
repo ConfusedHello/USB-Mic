@@ -6,6 +6,12 @@ created_at: "2024-05-22"
 ---
 
 
+## June 25th
+One business week later - I'm partially back! My gimbal has been submitted successfully and the invite to Undercity has been received!! Spent a little time today finishing up the schematic. Realistically I'll work on the PCB tomorrow - its the final week of Term 3 so prepare for some 12hr days over the holidays.
+
+**Time spent: 4hrs**
+
+
 ## June 20th
 Significant progress today! However, the project will be put on hold until next Tuesday due to school tests and SAT deadlines. Progress will be journaled next week!
 
