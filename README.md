@@ -56,7 +56,7 @@ A DIY USB Microphone inspired by the [DIY Perks USB-C Mic](https://www.youtube.c
 |Brass Wire             |1   |3.36       |3.36      |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
 |Wood Veneer            |1   |8.04       |8.04      |https://www.aliexpress.com/item/1005007643104919.html |
 
-Total (USD): $166.53
+Total (USD): $174.57
 
 
 ## Notes for v2
