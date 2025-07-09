@@ -6,6 +6,27 @@ created_at: "2024-05-22"
 ---
 
 
+**Total time spent: 132hrs**
+
+
+## July 3rd-9th
+Submitted another 10 point project in the last week! The last few days I've returned to working on the PCB, and finalising component selections. I've also thrown together a quick model of the case and some renders! All the images are available in the [README](https://github.com/ConfusedHello/USB-Mic) on Github!
+
+
+**Time spent: 16hrs**
+
+
+## June 27th
+HELLO AGAIN THE SCHEMATIC IS FINISHED
+
+**Time spent: 3hrs**
+
+
+## June 26th
+Finished schematic, will do final review tomorrow. Have started working on selecting footprints for SMD components.
+
+**Time spent: 5hrs**
+
 ## June 25th
 One business week later - I'm partially back! My gimbal has been submitted successfully and the invite to Undercity has been received!! Spent a little time today finishing up the schematic. Realistically I'll work on the PCB tomorrow - its the final week of Term 3 so prepare for some 12hr days over the holidays.
 
