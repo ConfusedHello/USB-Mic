@@ -10,7 +10,10 @@ created_at: "2024-05-22"
 
 
 ## July 3rd-9th
-Submitted another 10 point project in the last week! The last few days I've returned to working on the PCB, and finalising component selections. I've also thrown together a quick model of the case and some renders! All the images are available in the [README](https://github.com/ConfusedHello/USB-Mic) on Github!
+Submitted another 10 point project in the last week! The last few days I've returned to working on the PCB, and finalising component selections. I've also thrown together a quick model of the case and some renders! All the lovely renders are available in the [README](https://github.com/ConfusedHello/USB-Mic) on Github!
+
+Here's a sneak peak of the PCB~
+![PCBFINAL.png](https://raw.githubusercontent.com/ConfusedHello/USB-Mic/refs/heads/main/assets/PCBFINAL.png)
 
 
 **Time spent: 16hrs**
