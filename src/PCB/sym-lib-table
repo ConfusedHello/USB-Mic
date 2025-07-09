@@ -3,4 +3,5 @@
   (lib (name "B0505S-3WR2")(type "KiCad")(uri "${KIPRJMOD}/footprints/B0505S-3WR2.kicad_sym")(options "")(descr ""))
   (lib (name "ADUM3160BRWZ-RL")(type "KiCad")(uri "${KIPRJMOD}/footprints/ADUM3160BRWZ-RL.kicad_sym")(options "")(descr ""))
   (lib (name "TPS7A8901RTJR")(type "KiCad")(uri "${KIPRJMOD}/footprints/TPS7A8901RTJR.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM2912APJTR")(type "KiCad")(uri "${KIPRJMOD}/footprints/PCM2912APJTR.kicad_sym")(options "")(descr ""))
 )
