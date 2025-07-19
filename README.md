@@ -19,7 +19,7 @@ And a quick image of the case-
 <details>
 <summary>Click to expand/collapse</summary>
 <img src="/assets/Fusion.png" alt="CAD Render" height="25%"/>
-</<details>>
+</details>
 
 
 ## Bill of Materials
