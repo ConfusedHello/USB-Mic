@@ -8,6 +8,9 @@ created_at: "2024-05-22"
 
 **Total time spent: 132hrs**
 
+## July 10th
+Last day before Undercity and just spent some time finalising some renders for submission!
+
 
 ## July 3rd-9th
 Submitted another 10 point project in the last week! The last few days I've returned to working on the PCB, and finalising component selections. I've also thrown together a quick model of the case and some renders! All the lovely renders are available in the [README](https://github.com/ConfusedHello/USB-Mic) on Github!

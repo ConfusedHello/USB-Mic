@@ -1,8 +1,26 @@
-# USB Mic
-A DIY USB Microphone inspired by the [DIY Perks USB-C Mic](https://www.youtube.com/watch?v=LoQu3XXIayc)!
+# VOXMIC - DIY Studio-Quality USB-C Microphone
+![header](/assets/header.png)
+[Film lights](https://github.com/ConfusedHello/Videography-Light/tree/main) shouldn't be so insanely expensive, but you know what else shouldn't be either? A quality microphone. VoxMic is a completely DIY mic I've designed for the Hack Club [Highway to Hardware](https://highway.hackclub.com/) program!
+
+This is definitely the largest project I've ever worked on - Version 1 along has gone though **6 entire revisions** just to get to where it is now. ||V2 is in the works!||
+
+For details about the design process or other information, check out the [development journal](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic). A local copy is available in [JOURNAL.md](https://github.com/ConfusedHello/USB-Mic/blob/main/JOURNAL.md).
+
+
+## The Design
+Here's a quick diagram of the main components on the PCB~
+![Diagram](/assets/SystemDiagram.png)
+
+As well as the design for the PCB!
+![PCB Design](/assets/FinalPCBDesign.png)
+![PCB Schematic](/assets/SchematicFinal.png)
+
+And a quick image of the case.
+![CAD](/assets/Fusion.png)
 
 
 ## Bill of Materials
+Also available in .csv format in [BOM.csv](https://github.com/ConfusedHello/USB-Mic/blob/main/BOM.csv)!
 
 |Item                   |Qty.|Price (USD)|Ext. (USD)|Link                                                                                                                              |
 |-----------------------|----|-----------|----------|----------------------------------------------------------------------------------------------------------------------------------|
