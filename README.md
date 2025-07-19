@@ -1,22 +1,25 @@
-# VOXMIC - DIY Studio-Quality USB-C Microphone
+# VOXMIC - A DIY Studio-Quality USB-C Microphone
 ![header](/assets/header.png)
 [Film lights](https://github.com/ConfusedHello/Videography-Light/tree/main) shouldn't be so insanely expensive, but you know what else shouldn't be either? A quality microphone. VoxMic is a completely DIY mic I've designed for the Hack Club [Highway to Hardware](https://highway.hackclub.com/) program!
 
-This is definitely the largest project I've ever worked on - Version 1 along has gone though **6 entire revisions** just to get to where it is now. ||V2 is in the works!||
+This is definitely the largest project I've ever worked on - Version 1 along has gone though **6 entire revisions** just to get to where it is now. *V2 is in the works!!!*
 
 For details about the design process or other information, check out the [development journal](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic). A local copy is available in [JOURNAL.md](https://github.com/ConfusedHello/USB-Mic/blob/main/JOURNAL.md).
 
 
 ## The Design
-Here's a quick diagram of the main components on the PCB~
-![Diagram](/assets/SystemDiagram.png)
+Here's a quick diagram of the main components on the PCB~  
+<img src="/assets/SystemDiagram.png" alt="Diagram" width="75%"/>
 
-As well as the design for the PCB!
-![PCB Design](/assets/FinalPCBDesign.png)
-![PCB Schematic](/assets/SchematicFinal.png)
+As well as the design for the PCB!  
+<img src="/assets/FinalPCBDesign.png" alt="PCB Design" width="75%"/>
+<img src="/assets/SchematicFinal.png" alt="PCB Schematic" width="75%"/>
 
-And a quick image of the case.
-![CAD](/assets/Fusion.png)
+And a quick image of the case-  
+<details>
+<summary>Click to expand/collapse</summary>
+<img src="/assets/Fusion.png" alt="CAD Render" height="25%"/>
+</<details>>
 
 
 ## Bill of Materials
