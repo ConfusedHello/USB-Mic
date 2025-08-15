@@ -6,7 +6,24 @@ created_at: "2024-05-22"
 ---
 
 
-**Total time spent: 132hrs**
+**Total time spent: 142hrs**
+
+## August 9th
+Summary: Pain.
+
+Spent MANY MANY hours trying to solder everything together with a hot air rework station and a hot plate stolen from the chemistry department. 
+
+<img src="/assets/PCBempty.jpg" width=40%></img>
+<img src="/assets/PCBpopulated.jpg" width=40%></img>
+
+After finnicking with the dead small components for around 6 hours and screwing up 2 boards, de-soldering, and re-soldering , I plugged it in... for it to not work. USB wasn't working, and half the voltage regulator wasn't working from what I assumed was a bad join. I ended up replacing the voltage regulator with... a Xiao RP2040 (a technique I pioneered during Undercity when we had no 3.3V regs). After much pain (yes this was a very painful day), I decided that the USB isolator might be the issue, so I yanked it off, bridged the connections, and bodged a pullup to the D+ line.
+
+<img src="/assets/PCBfinal.jpg" width=40%></img>
+
+And it... sorta works! The main issue (something I worried about during the design) was the lack of a preamp. It would not work unless I had the capsule almost *inside* my mouth. And since my brass sheet never arrived (thank you Aliexpress) I was stuck with everything but the materials for the main body. Hopefully this is okay until I can get parts!
+
+**Time spent: 10hrs**
+
 
 ## July 10th
 Last day before Undercity and just spent some time finalising some renders for submission!
