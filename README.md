@@ -6,6 +6,7 @@ This is definitely the largest project I've ever worked on - Version 1 along has
 
 For details about the design process or other information, check out the [development journal](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic). A local copy is available in [JOURNAL.md](https://github.com/ConfusedHello/USB-Mic/blob/main/JOURNAL.md).
 
+<img src="/assets/PCBpopulated.jpg" width=70%></img>
 
 ## The Design
 Here's a quick diagram of the main components on the PCB~  
