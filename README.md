@@ -2,6 +2,8 @@
 ![header](/assets/header.png)
 [Film lights](https://github.com/ConfusedHello/Videography-Light/tree/main) shouldn't be so insanely expensive, but you know what else shouldn't be either? A quality microphone. VoxMic is a completely DIY mic I've designed for the Hack Club [Highway to Hardware](https://highway.hackclub.com/) program!
 
+**QUICK WARNING: This WILL NOT WORK without the bodged fixes** [*more information here*](https://www.reddit.com/r/electronics/comments/1mqmphi/comment/n9i0p1c/?context=3)
+
 This is definitely the largest project I've ever worked on - Version 1 along has gone though **6 entire revisions** just to get to where it is now. *V2 is in the works!!!*
 
 For details about the design process or other information, check out the [development journal](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic). A local copy is available in [JOURNAL.md](https://github.com/ConfusedHello/USB-Mic/blob/main/JOURNAL.md).
